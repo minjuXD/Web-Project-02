@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Gowun+Dodum&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+}
+body, input, button {
+  font-family: "Gowun Dodum", sans-serif;
+  font-weight: bold;
+}
+
+/* 본문 */
+.container {
+  max-width: 800px;
+  height: auto;
+  min-height:100%;
+  margin: 0 auto;
+  padding: 20px;
+  padding-top: 50px;
+  padding-bottom: 150px;
+}
+h1 {
+  text-align: center;
+  font-size: 4rem;
+  font-weight: 900;
+  margin-bottom: 20px;
+}
+form {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+label {
+  font-size: 2rem;
+  margin-right: 10px;
+}
+input {
+  width: 50px;
+  height: 40px;
+  font-size: 1.5rem;
+  text-align: center;
+}
+button {
+  width: 120px;
+  height: 45px;
+  font-size: 1.5rem;
+  background-color: #333;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  margin-left: 10px;
+  cursor: pointer;
+}
+button:hover {
+  background: rgb(150, 65, 210);
+}
+#lorem-text-div {
+  line-height: 1.5;
+  text-align: justify;
+}
+p {
+  color: red;
+  font-size: 1.5rem;
+  text-align: center;
+}
+span {
+  color: blue;
+  font-size: 1.5rem;
+  text-align: center;
+}
+
+/* 푸터 */
+footer {
+  height: 50px;
+	position: relative;
+  transform : translateY(-100%);
+}
+footer p {
+  color: black;
+  font-size: 1.0rem;
+  line-height: 1.7;
+}
+footer span {
+  color:rgb(150, 65, 210);
+  font-weight: 900;
+}
+
+
+/* top */
+a {
+  display:scroll;
+  position:fixed;
+  bottom:20px;
+  right:10px;
+  text-decoration: none;
+  color: #333;
+  border: 0.5px solid #ccc;
+  background-color: #eee;
+  opacity : 0.9;
+  padding: 5px;
+  border-radius: 5px;
+}
+a:hover {
+  color:#eee;
+  background-color:rgb(150, 65, 210);
+}
+
+/* 스크롤바 */
+::-webkit-scrollbar {
+  width: 13px;
+}
+::-webkit-scrollbar-thumb {
+  height: 20%;
+  background: #ccc;
+  border-radius: 2px;
+}
+::-webkit-scrollbar-track {
+  background: #fff;
+}
+::-webkit-scrollbar-thumb:active {
+	background-color:#333;
+}
+::-webkit-scrollbar-track:active {
+  background: #ccc;
+}
